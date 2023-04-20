@@ -20,6 +20,7 @@ Herbok 128 is a masked language model for predicting masked words in a given tex
 6. The output will shown in the generated text field. You can regenerate the text by pressing enter after clicking to input field.
 
 ## Limitations
-Model performs poor if predicted tokens are not seperated with any other words
-Dataset solely depends on scientific books and therefore it may not perform in everyday language.
-Dataset only contains English text
+- Capacity of the model is 128 tokens
+- Model performs poor if predicted tokens are not seperated with any other words
+- Dataset solely depends on scientific books and therefore it may not perform in everyday language.
+- Dataset only contains English text
