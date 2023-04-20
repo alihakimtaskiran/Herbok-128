@@ -11,7 +11,7 @@ from transformers import BertTokenizer
 
 # Load the model and tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-large-cased')
-model = load_model("Herbok-128-ONS-1.h5")
+model = load_model("Herbok-128-export.h5")
 
 # Define the generate_text function 
 def generate_text(text):
